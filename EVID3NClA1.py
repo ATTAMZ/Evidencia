@@ -539,9 +539,6 @@ LabelCombo.pack(padx=1, pady=14)
 label_imagen.pack(padx=1, pady=20)  # Empaquetamos también el Label para la imagen
 
 
-spin_box =tk.Spinbox (frame4,from_=0, to=1000, increment=1)
-
-
 def abrir_nueva_ventana():
     nueva_ventana = Toplevel(window)
     nueva_ventana.title("Nuevo Widget")
